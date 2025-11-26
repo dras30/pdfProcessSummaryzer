@@ -1,0 +1,9 @@
+transformers
+datasets
+accelerate
+bitsandbytes
+peft
+trl
+fastapi
+uvicorn
+pymupdf

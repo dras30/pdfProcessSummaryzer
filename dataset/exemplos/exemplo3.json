@@ -1,0 +1,18 @@
+{
+  "instruction": "Gerar JSON completo do processo.",
+  "input": {
+    "textoProcesso": "Cliente relata entrega incompleta...",
+    "causaRaiz": "Problema logístico",
+    "produto": "Entrega / transporte"
+  },
+  "output": {
+    "content": "Pedido chegou incompleto devido avaria...",
+    "causaRaiz": "Problema logístico",
+    "produto": "Entrega / transporte",
+    "sinonimosCausaRaiz": ["falha na logística"],
+    "sinonimosProduto": ["logística de transporte"],
+    "mustTerms": ["avaria", "itens faltantes"],
+    "antiTerms": ["pedido cancelado"]
+  }
+}
+

@@ -1,0 +1,35 @@
+{
+  "instruction": "Gerar JSON completo do processo.",
+  "input": {
+    "textoProcesso": "O autor relata que, após contratar operação de crédito pessoal...",
+    "causaRaiz": "FALHA NO PROCESSAMENTO DO PAGAMENTO",
+    "produto": "CRÉDITO PESSOAL"
+  },
+  "output": {
+    "content": "O autor relata que, após contratar operação de crédito pessoal...",
+    "causaRaiz": "FALHA NO PROCESSAMENTO DO PAGAMENTO",
+    "produto": "CRÉDITO PESSOAL",
+    "sinonimosCausaRaiz": [
+    "erro bancário", 
+    "pagamento não registrado",
+    "falha de baixa"
+  ],
+    "sinonimosProduto": [
+    "crédito pessoal", 
+    "empréstimo pessoal",
+    "crédito direto"  
+  ],
+    "mustTerms": [
+    "falha no processamento", 
+    "erro bancário",
+    "crédito pessoal",
+    "lançamento indevido"
+  ],
+    "antiTerms": [
+    "contratação realizada",
+    "autorização expressa",
+    "transação confirmada"
+  ]
+  }
+}
+
